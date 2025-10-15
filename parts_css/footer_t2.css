@@ -1,0 +1,28 @@
+/*Formatting the footer box*/
+.footer{
+    background-color: rgb(190, 190, 190);
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 20px;
+    margin: 10px;
+}
+
+/*Formatting the footer titles*/
+.footer-title{
+    font-family: "Righteous";
+    font-size: 20px;
+    color: black;
+}
+
+/*Formatting the footer text*/
+.footer-link{
+    font-family: "Righteous";
+    font-size: 15px;
+    color: black;
+}
+.footer-link:hover{
+    font-family: "Righteous";
+    color: black;
+    border: 1px solid black;
+    border-radius: 7.5px;
+}

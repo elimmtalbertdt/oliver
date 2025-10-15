@@ -1,0 +1,75 @@
+/*Formatting the footer*/
+.footer{
+    background-color: rgb(190, 190, 190);
+    padding: 10px 1% ;
+}
+
+/*Formatting the footer boxes*/
+.footer-box{
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 10px;
+    width: 49%;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 7.5px;
+}
+@media only screen and (min-width: 570px) {
+    .footer-box{
+        display: inline-block;
+        vertical-align: top;
+        margin-bottom: 0;
+        width: 33%;
+        height: 200px;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 7.5px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .footer-box{
+        display: block;
+        margin-bottom: 10px;
+        width: 99%;
+        height: 200px;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 7.5px;
+    }
+}
+#utilities{
+    margin-bottom: 0;
+    width: 99%;
+}
+@media only screen and (min-width: 570px) {
+    #utilities{
+        margin-bottom: 0;
+        width: 32%;
+    }
+}
+@media only screen and (min-width: 907px) {
+    #utilities {
+        width: 33%;
+    }
+}
+
+/*Formatting the footer titles*/
+.footer-title{
+    font-family: "Righteous";
+    font-size: 20px;
+    color: black;
+}
+
+/*Formatting the footer text*/
+.footer-link{
+    font-family: "Righteous";
+    font-size: 15px;
+    color: black;
+}
+.footer-link:hover{
+    font-family: "Righteous";
+    color: black;
+    border: 1px solid black;
+    border-radius: 7.5px;
+}
