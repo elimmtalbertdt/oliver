@@ -1,0 +1,241 @@
+/*General*/
+body{
+    margin: 0;
+    
+}
+.background{
+    background-color: rgb(0, 81, 120);
+}
+
+
+/*Navbar*/
+.navbar{
+    background-color: rgb(190, 190, 190);
+    width: 100%;
+    height: 5%;
+    margin:0;
+    padding:0;
+}
+
+/*Logo*/
+.logo{
+    margin: 10px;
+}
+
+/*Dropdown Menus*/
+.dropdown-toggle{
+    font-family: "Righteous";
+    font-size: 20px;
+    color: black;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.dropdown-toggle:hover{
+    color: black;
+    border: 1px solid black;
+    border-radius: 7.5px;
+    margin-right: 10px;
+}
+.dropdown-menu{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+/*Search Bar*/
+.search-bar{
+    display:none;
+}
+.search-button{
+    display:none;
+}
+.medium-search-bar{
+    border: 1px solid white;
+    border-radius: 25px;
+    text-align: center;
+    margin-right: 5px;
+}
+.medium-search-button{
+    background-color: rgb(0, 81, 120);
+    border: 1px solid rgb(0, 81, 120);
+    border-radius: 25px;
+    margin-right: 62px;
+}
+@media only screen and (min-width: 768px) {
+    .search-bar{
+        display: block;
+        border: 1px solid white;
+        border-radius: 25px;
+        text-align: center;
+        margin-right: 5px;
+        position:absolute;
+        right: 72px;
+        top: 22px;
+    }
+    .search-button{
+        display: block;
+        background-color: rgb(0, 81, 120);
+        border: 1px solid rgb(0, 81, 120);
+        border-radius: 25px;
+        margin-right: 10px;
+        position:absolute;
+        right: 0;
+        top: 22px;
+    }
+    .medium-search-bar{
+        display:none;
+    }
+    .medium-search-button{
+        display:none;
+    }
+}
+@media only screen and (max-width: 554px) {
+    .search-bar{
+        display: block;
+        border: 1px solid white;
+        border-radius: 25px;
+        text-align: center;
+        margin-right: 5px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .search-button{
+        display: block;
+        background-color: rgb(0, 81, 120);
+        border: 1px solid rgb(0, 81, 120);
+        border-radius: 25px;
+        margin-bottom: 10px;
+    }
+    .medium-search-bar{
+        display:none;
+    }
+    .medium-search-button{
+        display:none;
+    }
+}
+
+/*Collapsible Button*/
+.navbar-toggler{
+    border: 1px solid black;
+    border-radius: 7.5px;
+    margin-right: 10px;
+    position:absolute;
+    right: 0;
+    top: 20px;
+}
+.icon{
+    color: black;
+}
+
+
+/*Body section*/
+
+.body{
+    width: 90%;
+    margin: auto;
+    background-color: rgb(0, 81, 120);
+}
+
+/*Main Header*/
+.main-header{
+    font-family: "Lato";
+    font-size: 60px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+    color: white;
+}
+
+/*Body Content*/
+.body-images{
+    display: inline-block;
+    vertical-align: top;
+    width: 400px;
+    background-color: green;
+    margin-top: 10px;
+    width: 100%;
+}
+.body-text{
+    display: inline-block;
+    font-family: "Lato";
+    font-size: 2vw;
+    color: white;
+    margin-top: 10px;
+    width: 100%;
+}
+
+
+/*Footer*/
+/*Formatting the footer*/
+.footer{
+    background-color: rgb(190, 190, 190);
+    padding: 10px 1% ;
+}
+
+/*Formatting the footer boxes*/
+.footer-box{
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 10px;
+    width: 49%;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 7.5px;
+}
+#utilities{
+    margin-bottom: 0;
+    width: 99%;
+}
+@media only screen and (min-width: 570px) {
+    .footer-box{
+        display: inline-block;
+        vertical-align: top;
+        margin-bottom: 0;
+        width: 33%;
+        height: 200px;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 7.5px;
+    }
+    #utilities{
+        margin-bottom: 0;
+        width: 32%;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .footer-box{
+        display: block;
+        margin-bottom: 10px;
+        width: 99%;
+        height: 200px;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 7.5px;
+    }
+}
+@media only screen and (min-width: 907px) {
+    #utilities {
+        width: 33%;
+    }
+}
+
+/*Formatting the footer titles*/
+.footer-title{
+    font-family: "Righteous";
+    font-size: 20px;
+    color: black;
+}
+
+/*Formatting the footer text*/
+.footer-link{
+    font-family: "Righteous";
+    font-size: 15px;
+    color: black;
+}
+.footer-link:hover{
+    font-family: "Righteous";
+    color: black;
+    border: 1px solid black;
+    border-radius: 7.5px;
+}
